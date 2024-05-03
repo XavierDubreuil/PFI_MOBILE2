@@ -28,13 +28,13 @@ export default function App() {
           options={{ headerShown: false }} />
         <Screen name="SeConnecter" component={SeConnecterScreen}
           options={{ title: "" }} />
-        {/* <Screen name="Ardoise" component={ArdoiseScreen} />
+        <Screen name="Ardoise" component={ArdoiseScreen} />
         <Screen name="Panier" component={PanierScreen} />
         <Screen name="Commandes" component={CommandeScreen} />
         <Screen name="CommandeInfo" component={CommandeInfoScreen}
           options={{ title: "Détail de la commande" }} />
         <Screen name="RestoInfo" component={RestoInfoScreen}
-          options={{ title: "Nous joindre" }} /> */}
+          options={{ title: "Nous joindre" }} />
       </Navigator>
     </NavigationContainer>
   );
